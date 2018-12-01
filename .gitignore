@@ -57,14 +57,8 @@
 # *.sdc # I want those timing files
 
 # ignore Quartus II generated folders
-*/db/
-*/incremental_db/
-*/simulation/
-*/timing/
-*/testbench/
-*/*_sim/
+simulation/
 incremental_db/
 db/
-_output_files/
 output_files/*
 !output_files/*.fit.summary
