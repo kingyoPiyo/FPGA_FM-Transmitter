@@ -12,19 +12,19 @@ module fm_tx (
     input       rst_n,
     output      led_onb,
     output      osc_oe,
-	output      rf_out,
+    output      rf_out,
 
-	// UART I/F
-	input       uart_mosi,
+    // UART I/F
+    input       uart_mosi,
     output      uart_miso,
     
-	// Audio Input
+    // Audio Input
     input       analog_L,
     output      analog_L_cmp,
     input       analog_R,
     output      analog_R_cmp,
     
-	// Bar LED (74HC595)
+    // Bar LED (74HC595)
     output      o_ser,
     output      o_srclk,
     output      o_rclk
